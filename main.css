@@ -1,0 +1,124 @@
+ul {
+    /* Esto va siempre*/
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left:0;
+    background-color: #333 ;
+    width: 100%;
+    
+}
+
+li {
+    float: left;
+}
+
+ul li a {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    
+}
+
+li:hover {
+ background-color: rgb(44, 43, 43);
+}
+
+.active {
+    background-color: green;
+}
+a{
+    text-decoration: none;
+}
+p { color: black;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.titulo {
+   margin-top: 55px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline 1px;
+}
+
+
+
+#principal {
+    width:100%;
+    display: flex;
+    
+}
+
+.secundario {
+    width: 45%;
+    background-color: rgb(51, 50, 50);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border: solid 1px;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    color: black;
+      
+}
+
+
+.t{
+    color: white;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    width: 90%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+}
+
+
+footer {
+   bottom: 0;
+   left: 0;
+   position: fixed;
+   background-color: blueviolet;
+   width: 100%;
+   
+}
+
+button{
+    transition: 0.3s ;
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+    margin: auto;
+}
+button:hover{
+    transform: scale(1.1,1.1);
+    background-color: rgba(204, 64, 9, 0.808);
+}
+
+footer p {
+    color: white;
+
+}
+
+body {
+    background-color: rgb(153, 150, 150);
+}
